@@ -6,10 +6,14 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
-    <string name="searchAction">Search</string>
-    <string name="aboutAction">About</string>
+    <string name="action_Search">Search</string>
+    <string name="action_About">About</string>
     <string name="exchange_carb">Carbs</string>
     <string name="exchange_protein">Proteins</string>
     <string name="exchange_fat">Fats</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_barcode_scanner">BarcodeScannerActivity</string>
+    <string name="activity_Search">SearchActivity</string>
 
 </resources>

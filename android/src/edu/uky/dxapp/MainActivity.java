@@ -2,12 +2,11 @@ package edu.uky.dxapp;
 
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.NavUtils;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -85,6 +84,18 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                 .replace(R.id.drawer_layout, fragment)
                 .commit();
         return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch (item.getItemId()) {
+    		case R.id.action_search:
+    			Intent intent = new Intent(this,SearchActivity.class);
+    			startActivity(intent);
+    			return true;
+    		default:
+    			return super.onOptionsItemSelected(item);
+    	}
     }
 
     /**
