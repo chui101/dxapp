@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.example.dxapp;
+package edu.uky.dxapp;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
