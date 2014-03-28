@@ -6,6 +6,8 @@ import android.app.ActionBar;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -35,6 +37,16 @@ public class SearchActivity extends Activity implements OnClickListener{
 		scanBtn = (ImageButton)findViewById(R.id.scan_button);
 		contentTxt = (EditText)findViewById(R.id.search_text);
 		scanBtn.setOnClickListener(this);
+		contentTxt.addTextChangedListener(new TextWatcher() { 
+			public void afterTextChanged(Editable s) {
+				// TODO: do new search
+				// parse results
+				// update ResultsView
+			}
+			public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+			public void onTextChanged(CharSequence s, int start, int before, int count){}
+		});
+		
 	}
 	
 	@Override

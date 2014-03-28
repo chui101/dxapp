@@ -15,5 +15,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_barcode_scanner">BarcodeScannerActivity</string>
     <string name="activity_Search">SearchActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
 
 </resources>

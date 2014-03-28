@@ -32,6 +32,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.uky.dxapp.MainActivity" />
         </activity>
+        <activity
+            android:name="edu.uky.dxapp.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:parentActivityName="edu.uky.dxapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uky.dxapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

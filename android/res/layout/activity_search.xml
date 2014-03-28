@@ -26,13 +26,13 @@
             android:id="@+id/scan_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/listView1"
+            android:layout_above="@+id/ResultsView"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:src="@drawable/ic_action_scan" />
 
         <ListView
-            android:id="@+id/listView1"
+            android:id="@+id/ResultsView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
