@@ -7,5 +7,9 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="searchAction">Search</string>
+    <string name="aboutAction">About</string>
+    <string name="exchange_carb">Carbs</string>
+    <string name="exchange_protein">Proteins</string>
+    <string name="exchange_fat">Fats</string>
 
 </resources>

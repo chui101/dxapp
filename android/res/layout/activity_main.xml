@@ -1,5 +1,4 @@
-<android.support.v4.widget.DrawerLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
@@ -14,11 +13,11 @@
 
         <TextView
             android:id="@+id/textView1"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="Large Text"
+            android:text="@string/exchange_fat"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <ProgressBar
             android:id="@+id/progressBar1"
@@ -31,11 +30,11 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textView1"
-            android:text="Large Text"
+            android:text="@string/exchange_carb"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <ProgressBar
@@ -49,11 +48,11 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/textView2"
             android:layout_below="@+id/textView2"
-            android:text="Large Text"
+            android:text="@string/exchange_protein"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <ProgressBar
@@ -64,7 +63,6 @@
             android:layout_alignLeft="@+id/progressBar2"
             android:layout_alignRight="@+id/progressBar2"
             android:layout_alignTop="@+id/textView3" />
-        
 
 	</RelativeLayout>
     <ListView android:id="@+id/left_drawer"
