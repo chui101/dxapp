@@ -1,6 +1,9 @@
 package edu.uky.dxapp;
 
 
+import java.text.DateFormat;
+import java.util.Date;
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -46,6 +49,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                                 getString(R.string.title_section3),
                         }),
                 this);
+        TextView DateText = (TextView)findViewById(R.id.DateText);
+        DateText.setText(DateFormat.getDateTimeInstance().format(new Date()));
     }
 
 

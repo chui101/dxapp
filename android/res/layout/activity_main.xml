@@ -11,12 +11,19 @@
         android:layout_height="match_parent"
         android:padding="15dp" >
 
+
+        <TextView
+            android:id="@+id/DateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentDate"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
         <TextView
             android:id="@+id/textView1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/DateText"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
             android:text="@string/exchange_fat"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <ProgressBar
@@ -25,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
+            android:layout_below="@+id/DateText"
             android:layout_toRightOf="@+id/textView1" />
 
         <TextView
